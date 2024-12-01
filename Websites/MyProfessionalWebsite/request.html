@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- 
+		Name: Nick Morgan
+		Date: September 3, 2024
+		Assignment: My Professional Website
+		Page: request.html -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ee5ea825bd.js" crossorigin="anonymous"></script>
+    <title>Digital Solutions</title>
+</head>
+
+<body>
+    <div class="socialmedia">
+        <i class="fa-brands fa-facebook"></i> <i class="fa-brands fa-x-twitter"></i> <i class="fa-brands fa-instagram"></i> <i class="fa-brands fa-youtube"> </i> <i class="fa-solid fa-share"></i>
+    </div>
+    <!--Navigation links throughout pages-->
+    <nav>
+        <ul class="nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="request.html">Submit Request</a></li>
+        </ul>
+    </nav>
+    <header id="header">Request form</header>
+    <h1>Are you looking for amazing digital designs?</h1>
+    <div class="container">
+        <h1>Submit Your Request</h1>
+        <form action="/submit" method="POST" enctype="multipart/form-data">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <footer>&spades;&nbsp;NM Digital Solutions 123 N Ave, Somewhere&nbsp;MO&nbsp;65605 417-111-1111&nbsp;&spades;
+    </footer>
+</body>
+
+</html>

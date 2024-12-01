@@ -1,0 +1,44 @@
+@media screen and (max-width: 700px) {
+    header {
+        display: flex;
+        flex-flow: column wrap;
+        margin: auto;
+        justify-content: center;
+        width: auto;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        width: auto;
+    }
+
+    nav a {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+    }
+
+    div.col-container {
+        display: none;
+    }
+
+    .container-float {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    header, footer {
+        width: auto;
+    }
+
+    .container-float {
+        margin: 25px;
+    }
+    
+}

@@ -1,0 +1,163 @@
+body {
+    background-image: url(lake.jpg);
+    background-size: cover;
+    color: greenyellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    text-shadow:
+        -1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    margin: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: rgba(128, 128, 128, 0.650);
+    border: 1px solid black;
+    font-size: 55px;
+    box-shadow: 2px 2px 2px gray;
+}
+
+footer {
+    position: fixed;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgba(128, 128, 128, 0.650);
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px gray;
+}
+
+img {
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px white;
+}
+
+/* table settings */
+table {
+    background-color: rgba(128, 128, 128, 0.650);
+}
+
+table, th, td {
+    border: 1px black solid;
+}
+
+td {
+    padding: 5px;
+}
+
+th {
+    text-align: center;
+    color: orange;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+/*table data settings*/
+.item-name{
+    font-size: 20px;
+    text-align: left;
+}
+
+.price {
+    font-size: 15px;
+    text-align: right;
+    color: orange;
+}
+
+/* list settings */
+ul {
+    font-size: 25px;
+}
+
+li {
+    font-size: 20px;
+    color: orange;
+    list-style-position: inside;
+}
+
+/* containers */
+.container {
+    background-color: rgba(128, 128, 128, 0.650);
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    width: 700px;
+}
+
+.container1 {
+    background-color: rgba(128, 128, 128, 0.650);
+    border: 1px solid #000;
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+    position: absolute;
+    top: 22.5%;
+    left: 30%;
+}
+
+.bait-vid {
+    position: absolute;
+    right: 10%;
+    top: 20.5%;
+}
+
+.column-container {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 20px;
+}
+
+.social-media {
+    position: fixed;
+    top: 15%;
+}
+
+/* nav-list */
+.nav-list {
+    display: flex;
+    padding: 25px;
+    list-style: none;
+}
+
+.nav-list ul li {
+    display: flex;
+    text-align: center;
+}
+
+.nav-list li {
+    text-decoration: none;
+    margin: 0 15px;
+
+}
+
+.nav-list a {
+    border: 1px solid black;
+    background-color: rgba(128, 128, 128, 0.650);
+    color: greenyellow;
+    padding: 10px 10px;
+    font-size: 35px;
+    margin: 20%;
+}
+
+.nav-list a:hover {
+    background-color: white;
+    color: orange;
+    background-size: cover;
+    background-color: rgba(128, 128, 128, 0.650);
+    text-shadow:
+        -1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.nav-list a:focus {
+    color: greenyellow;
+}

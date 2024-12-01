@@ -1,0 +1,142 @@
+/* sets font for the website*/
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+/*website background*/
+body {
+    background-image: url(images/digitalBackground.jpg);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.color {
+    color: rgb(0, 255, 136);
+}
+
+h1 {
+    margin-left: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    width: 850px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/*list controls*/
+article {
+    width: 80%;
+    max-width: 850px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+dt {
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    text-align: center;
+    color: rgb(0, 255, 136);
+}
+
+dd {
+    font-size: 15px;
+    width: 850px;
+    text-align: center;
+    color: rgb(0, 217, 255);
+    display: inline-block;
+}
+
+header {
+    font-family: 'Bungee Spice', sans-serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 35px;
+}
+
+/*image effects*/
+.container {
+    overflow: hidden;
+    text-align: center;
+}
+
+.rounded-image {
+    border-radius: 10%;
+    box-shadow: 5px 5px 20px azure;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+}
+
+/*navigation list*/
+.nav-list {
+    list-style: none;
+    padding: 50px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: #0aa6ee;
+    padding: 10px 100px;
+    display: block;
+    font-size: 45px;
+    font-style: italic;
+}
+
+.nav-list a:hover {
+    color: whitesmoke;
+    background-image: url(images/lightning.jpg);
+    border-radius: 35%;
+    box-shadow: 5px 5px 20px azure;
+}
+
+.nav-list a:focus {
+    color: #ffffff;
+}
+
+a {
+    font-size: 35px;
+    color: rgb(0, 217, 255);
+}
+/*submission form*/
+input[type="file"] {
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.socialmedia {
+    position:fixed;
+    top: 100px;
+    left: 10px;
+}

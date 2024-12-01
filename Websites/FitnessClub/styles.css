@@ -1,0 +1,173 @@
+/*Name: Nick Morgan
+Assignment: Fit for Fitness Club
+Date: 11/1/24*/
+
+body {
+    background-image: url(gym1.jpg);
+    background-size: cover;
+    border-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: white;
+    font-size: large;
+    text-shadow:
+        -1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+h1 {
+    box-sizing: border-box;
+    border-color: white;
+    border: 1px;
+}
+
+header {
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 35px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 5px;
+    left: 160px;
+    width: 80%;
+    font-size: 20px;
+    background-color: gray;
+    padding-top: 10px;
+    box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.3);
+    border: 5px black;
+}
+
+/* nav-list */
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-flow: row wrap;
+}
+
+.nav-list li {
+    margin: 0 15px;
+}
+
+.nav-list a {
+    color: white;
+    padding: 10px 10px;
+    font-size: 35px;
+}
+
+.nav-list a:hover {
+    color: whitesmoke;
+    background-image: url(weight.jpg);
+    background-size: cover;
+    box-shadow: 5px 5px 5px gray;
+    text-shadow:
+        -1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.nav-list a:focus {
+    color: greenyellow;
+}
+
+/* container */
+.container {
+    text-align: center;
+    background-color: gray;
+    width: 80%;
+    padding: 10px;
+    margin-left: 150px;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px white;
+}
+
+.box {
+    margin-left: 150px;
+    padding-top: 5px;
+    text-indent: 10px;
+    border: 1px #000;
+    width: 25%;
+    background-color: gray;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 3px 3px white;
+}
+
+/* table settings */
+table {
+    margin: auto;
+}
+
+table, th, td {
+    border: 2px white solid;
+}
+
+th, td {
+    padding: 5px;
+    text-align: center;
+}
+
+td:hover {
+    background-color: black;
+}
+
+.class-entry {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-left: 2px solid #007bff;
+}
+
+.class-entry1 {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-left: 2px solid orange;
+}
+
+.class-entry2 {
+    margin-bottom: 5px;
+    padding: 5px;
+    border-left: 2px solid rgb(64, 46, 233);
+}
+
+.class-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.class-time {
+    font-size: 15px;
+}
+
+.class-instructor {
+    font-size: 20px;
+    font-style: italic;
+}
+
+/* input box */
+.input-field {
+    margin: auto;
+    width: 50%;
+    background-color: gray;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+input {
+    position: absolute;
+    left: 15%;
+    width: 75%;
+}
+
+.submit {
+    width: initial;
+    position: initial;
+}

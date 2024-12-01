@@ -1,0 +1,90 @@
+/*
+    Name: Nick Morgan
+    Date: 8/30/24
+    Assignment: Pretty About You
+    */
+
+/*This is the main background color for the entire site*/
+body {
+    background-color: rgba(0, 0, 0, 0.384);
+}
+
+#main-header {
+    font-size: 36px;
+}
+
+/* =============================================
+	Hypertext settings
+   =============================================
+*/
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+a:visited {
+    color: #1a428b79;
+}
+
+a:hover {
+    color: #06e;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:hover,
+a:active {
+    outline: 0;
+}
+
+/* =============================================
+	End of hyperlink settings
+   =============================================
+*/
+
+.banner {
+    background-color: rgba(159, 228, 228, 0.562);
+    color: rgb(0, 0, 0);
+}
+
+.center-text {
+    text-align: center;
+}
+
+#unique-section-1 {
+    border: 1px solid #ddd;
+}
+
+#unique-section-2 {
+    border: 1px solid white;
+}
+
+/* =============================================
+	Font Settings
+   =============================================
+*/
+/*main font selection*/
+.custom-font {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rounded-image {
+    border-radius: 50%;
+    box-shadow: 5px 5px 35px rgba(240, 9, 9, 0.541);
+}
+
+.rounded-image-2 {
+    border-radius: 15%;
+    box-shadow: 5px 5px 35px rgba(27, 193, 243, 0.527);
+}
+
+.styled-list {
+    list-style-position: inside;
+}
+
+/*allows embed code for video link to play*/
+.iframe-container {
+    border: 0;
+}
